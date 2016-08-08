@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body class="flex-container">
+		<nav class="nav-container">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/blog">Posts</a></li>
+				<li><a href="/trending.html">Trending</a></li>
+				<li><a href="/specials.html">Super-Duper Specials</a></li>
+			</ul>
+		</nav>
+			<div class="body-container">
+				<aside class="side-container">
+					<span class="menu-title">Winners</span>
+					<ul>
+						<li><a href="/pictures.html">Picture</a></li>
+						<li><a href="/articles.html">Article</a></li>
+						<li><a href="/outfit.html">Outfit</a></li>
+						<li><a href="/essentials.html">Essentials</a></li>
+						<li><a href="/youtube.html">YouTube</a></li>
+					</ul>
+				</aside>
+				<div class="content-container">
+						{{ content }}
+					</div>
+				</div>
+			</div>
+			<footer>
+				<ul>
+					<li><a href="mailto:xylozork@gmail.com">email</a></li>
+				</ul>
+					{{ site.description }}				
+			</footer>
+		</body>
+		</div>
+	</div>
+</html>
+

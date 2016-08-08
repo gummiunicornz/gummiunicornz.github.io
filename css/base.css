@@ -1,0 +1,105 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #FFAAAA;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: auto;
+}
+/*
+nav li.selected {
+    padding: 2px;
+    border-top: 1px solid #801515;
+    border-left: 1px solid #801515;
+    border-right: 1px solid #801515;
+}*/
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+aside ul {
+   font-size: 1.5em; 
+   list-style: none;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: #801515;
+}
+a:hover {
+    text-decoration: underline;
+    color: #801515;
+}
+a:visited {
+    color: #801515;
+}
+h1 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.flex-container {
+    display: flex; 
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    min-height: 500px;  
+}
+.body-container {
+    display: flex;
+    display: -webkit-flex;
+    flex: 1;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.side-container {
+    flex: 0 1 15%;
+}
+
+.nav-container {
+    flex: 0 0 2em;
+    margin-left: 15%;
+    justify-content: flex-end;
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    -webkit-justify-content: flex-end;
+}
+
+.content-container {
+    flex: 1;
+}
+
+.menu-title {
+    font-size: 1.5em;
+}

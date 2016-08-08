@@ -1,0 +1,12 @@
+# Site settings
+title: Gummi Unicornz
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  A Blog Mainly About Squishies, But Still Fun For People Unfamiliar To Squishies. Hope You Enjoy Reading As Much As I Enjoy Writing Articles.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gummiunicornz.github.io" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  gummiunicornz
+
+# Build settings
+markdown: kramdown
